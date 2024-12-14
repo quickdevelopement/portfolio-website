@@ -13,22 +13,23 @@
     <!--=========================
     HEADER Section  
     ==========================-->
-    <header class="header">
+    <header class="header sticky">
         <div class="container">
             <div class="logo-area">
+                <img src="./assets/logo.png" alt="Logo">
                 <h1>
                     <a href="#">Quick Development</a>
                 </h1>
             </div>
             <div class="nav-area">
                 <nav class="nav">
-                    <a href="#">Home</a>
-                    <a href="#">Services</a>
-                    <a href="#">Testimonial</a>
-                    <a href="#">Education</a>
-                    <a href="#">Skill</a>
-                    <a href="#">about</a>
-                    <a href="#">contact</a>
+                    <a href="#home">Home</a>
+                    <a href="#service">Services</a>
+                    <a href="#testimonial">Testimonial</a>
+                    <a href="#education">Education</a>
+                    <a href="#skill">Skill</a>
+                    <a href="#about">about</a>
+                    <a href="#contact">contact</a>
                 </nav>
             </div>
         </div>
@@ -36,56 +37,56 @@
     <!--=========================
     Banner Section  
     ==========================-->
-    <section class="banner">
-        <div>
+    <section class="banner" id="home">
+        <div class="container">
             <div class="banner-area">
                 <h2>Welcome to <em><q>Quick Development</q></em></h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam pariatur debitis modi, quaerat quod fuga sapiente ducimus tenetur quis quisquam recusandae placeat optio aperiam consequatur quibusdam eius in deserunt architecto, voluptas reiciendis fugiat saepe. Rem distinctio necessitatibus beatae aliquam error facilis non? Commodi assumenda nam repudiandae iste accusamus ipsum labore!</p>
-                <a href="#">Read More...</a>
+                <a href="#" class="learn-more">Read More...</a>
             </div>
         </div>
     </section>
     <!--=========================
     Service Section  
     ==========================-->
-    <section class="service">
+    <section class="service bg-primary" id="service">
         <div class="section-heading">
             <h2>My Services</h2>
         </div>
         <div class="section-content">
-            <div>
+            <div class="container">
                 <div class="service-item">
                     <div class="service-icon">
                         <img src="./assets/images/globe.svg" alt="First Service">
                     </div>
                     <h3>Web Design</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia quam voluptates perspiciatis saepe quaerat, nobis distinctio minima iure voluptas, blanditiis a totam? Libero ipsa beatae cupiditate ducimus fuga similique quo.</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia quam voluptates perspiciatis saepe quaerat</p>
                 </div>
                 <div class="service-item">
                     <div class="service-icon">
                         <img src="./assets/images/chart-histogram.svg" alt="First Service">
                     </div>
                     <h3>UI/UX</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia quam voluptates perspiciatis saepe quaerat, nobis distinctio minima iure voluptas, blanditiis a totam? Libero ipsa beatae cupiditate ducimus fuga similique quo.</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia quam voluptates perspiciatis saepe quaerat</p>
                 </div>
                 <div class="service-item">
                     <div class="service-icon">
                         <img src="./assets/images/user.svg" alt="First Service">
                     </div>
                     <h3>Backend Development</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia quam voluptates perspiciatis saepe quaerat, nobis distinctio minima iure voluptas, blanditiis a totam? Libero ipsa beatae cupiditate ducimus fuga similique quo.</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia quam voluptates perspiciatis saepe quaerat</p>
                 </div>
             </div>
         </div>
     </section>
     <!--=========================
-    HEADER Section  
+    Testimonial Section  
     ==========================-->
-    <section class="testimonials">
+    <section class="testimonials bg-secondary" id="testimonial">
         <div class="section-heading">
             <h2>Testimonials</h2>
         </div>
-        <div>
+        <div class="container">
             <div>
                 <div class="testimonial-item">
                     <div class="comment">
@@ -95,7 +96,7 @@
                         <div class="testimonial-picture">
                             <img src="./assets/images/testmonial-1.jpg" alt="Commenter">
                         </div>
-                        <h4>-- Devid Smith</h4>
+                        <h4>--Devid Smith</h4>
                     </div>
                 </div>
                 <div class="testimonial-item">
@@ -115,12 +116,12 @@
     <!--=========================
     Education Section  
     ==========================-->
-    <section class="eduction">
+    <section class="eduction" id="education">
         <div class="section-heading">
             <h2>Education</h2>
         </div>
         <div>
-            <div>
+            <div class="container">
                 <div class="education-area">
                     <div class="edu-item">
                         <div class="edu-icon">
@@ -147,12 +148,12 @@
     <!--=========================
     Skill Section  
     ==========================-->
-    <section class="skill">
+    <section class="skill" id="skill">
         <div class="section-heading">
             <h2>My Skills</h2>
         </div>
         <div>
-            <div>
+            <div class="container">
                 <div class="skill-item">
                     <div class="skill-icon">
                         <img src="./assets/images/html.png" alt="HTML">
@@ -189,8 +190,8 @@
     <!--=========================
     About Section  
     ==========================-->
-    <section class="about">
-        <div>
+    <section class="about" id="about">
+        <div class="container">
             <div class="about-area">
                 <div class="about-author-pic">
                     <div class="about-pic">
@@ -204,7 +205,7 @@
                     <h3>Ariful Islam</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, quo iusto minus autem atque deleniti voluptatem nostrum laudantium doloribus possimus perspiciatis veniam in nobis illum ab eum rem quidem. Asperiores?</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit laboriosam est necessitatibus minima velit alias reiciendis animi illo hic labore.</p>
-                    <a href="#">Learn More...</a>
+                    <a href="#" class="learn-more">Learn More...</a>
                 </div>
             </div>
         </div>
@@ -212,17 +213,17 @@
     <!--=========================
     Contact Section  
     ==========================-->
-    <section class="contact">
+    <section class="contact bg-secondary" id="contact">
         <div class="section-heading">
             <h2>Contact Me</h2>
         </div>
-        <div>
+        <div class="container">
             <div>
                 <form action="">
                     <input type="text" placeholder="Name" required><br>
                     <input type="email" placeholder="Email" required><br>
-                    <textarea placeholder="Your Message" rows="4" required></textarea>
-                    <button type="submit">Send Message</button>
+                    <textarea placeholder="Your Message" rows="4" required></textarea><br>
+                    <button class="btn-primary" type="submit">Send Message</button>
                 </form>
             </div>
         </div>
@@ -230,8 +231,8 @@
     <!--=========================
     Footer Section  
     ==========================-->
-    <footer class="footer">
-        <div>
+    <footer class="footer bg-secondary">
+        <div class="container">
             <p>Copyright &copy; Ariful Islam </p>
         </div>
     </footer>
